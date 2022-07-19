@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function send() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            if(name != "" && email != "" && message != "") {
+                alert("Message sent");
+            } else {
+                alert("Fill In Completely !");
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navigasi">
+        <div class="wash"><b>Wash Laundry</b></div>
+        <div class="home"><a href="#home">Home</a></div>
+        <div class="price"><a href="#price">Pricelist</a></div>
+        <div class="contact"><a href="#contact">Contact</a></div>
+        <div class="cart"><a href="form.html"><img src="keranjang.png" width="30px" height="30px"></a></div>
+    </nav>
+    <header class="header">
+        <a name="home"></a>
+        <div class="halo">
+            <font color="red" size="6">Halo, Selamat Datang<br></font>
+                <font size="9">
+                    <b>
+                        Pelayanan Laundry<br>
+                        Dengan Beberapa Paket
+                    </b>
+                </font>
+            <p>
+                <font size="4">
+                    Wash laundry adalah tempat untuk memesan <br>
+                    jasa layanan laundry dengan beberapa paket. <br>
+                    Pilih paketnya sekarang <br>
+                </font>
+            </p>
+            <table>
+                <tr>
+                    <td><a href="#price"><font size="5" color="white"><center>Pricelist</center></font></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="mesin"><center><img src="mesincuci.png" width="500px" height="420px"></center></div>
+    </header>
+    <div class="main">
+        <div class="jargon">
+            <center>
+                <font size="6">LAUNDRY DENGAN CEPAT, BERSIH, DAN RAPI</font>
+                <br><br><hr><br><br>
+            </center>
+        </div>
+        <div class="flex">
+            <div class="kotak">
+                <center>
+                    <img src="baju1.png" width="300px" height="200px"><br><br>
+                    <font size="6">LAUNDRY EXPRESS</font>
+                    <p><font>
+                        Laundry dengan singkat ( 3 - 6 jam )<br>
+                        Pakaian langsung siap dipakai
+                    </font></p>
+                </center>
+            </div>
+            <div class="kotak">
+                <center>
+                    <img src="baju2.png" width="300px" height="200px"><br><br>
+                    <font size="6">LAUNDRY REGULER</font>
+                    <p><font>
+                        Kualitas terjamin, harga terjangkau.<br>
+                        Hanya 24 jam laundry selesai
+                    </font></p>
+                </center>
+            </div>
+        </div>
+        <div class="contact"></div>
+    </div>
+    <div class="harga">
+        <a name="price"></a>
+        <div class="jargon">
+            <center>
+                <font size="6">HARGA PAKET LAUNDRY</font>
+                <br><br><hr><br><br>
+                <font size="6">Paket Laundry Reguler Kiloan</font>
+                <br><br><br><br>
+            </center>
+        </div>
+        <div class="flex2">
+            <div class="reguler">
+                <center>
+                    <br>
+                    <font size="6">Paket Reguler</font><hr width="450px">
+                    <p>
+                        Minimal Berat 3 Kg <br>
+                        Layanan 24 Jam Selesai <br>
+                        Cuci Kering - Lipat - Setrika <br>
+                        Belum Free Delivery <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>7.500/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+            <div class="reguler">
+                <center>
+                    <br>
+                    <font size="6">Paket Reguler Delivery</font><hr width="450px">
+                    <p>
+                        Minimal Berat 3 Kg <br>
+                        Layanan 24 Jam Selesai <br>
+                        Cuci Kering - Lipat - Setrika <br>
+                        Free Antar Jemput <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>9.000/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+        </div>
+        <center>
+            <br><br><br>
+            <font size="6">Paket Laundry Express</font>
+            <br><br><br><br>
+        </center>
+        <div class="flex2">
+            <div class="express">
+                <center>
+                    <br>
+                    <font size="6">Express 3 Jam</font><hr width="260px">
+                    <p>
+                        Minimal Berat 3 Kg <br>
+                        Layanan 3 Jam Selesai <br>
+                        Cuci Kering - Lipat - Setrika <br>
+                        Free Antar Jemput <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>20.000/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+            <div class="express">
+                <center>
+                    <br>
+                    <font size="6">Express 6 Jam</font><hr width="260px">
+                    <p>
+                        Minimal Berat 3 Kg <br>
+                        Layanan 6 Jam Selesai <br>
+                        Cuci Kering - Lipat - Setrika <br>
+                        Free Antar Jemput <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>14.000/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+            <div class="express">
+                <center>
+                    <br>
+                    <font size="6">Paket Member</font><hr width="260px">
+                    <p>
+                        Maximal Berat 30 Kg <br>
+                        Member 1 Bulan <br>
+                        Cuci Kering - Lipat - Setrika <br>
+                        Free Antar Jemput <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>210.000/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+        </div>
+        <center>
+            <br><br><br>
+            <font size="6">Paket Laundry Sepatu</font>
+            <br><br><br><br>
+        </center>
+        <div class="flex3">
+            <div class="reguler">
+                <center>
+                    <br>
+                    <font size="6">Cuci Sepatu Express</font><hr width="450px">
+                    <p>
+                        Deep Cleaning <br>
+                        Layanan 3 Hari Selesai <br>
+                        Free Antar Jemput <br>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><font size="5"><center><b>65.000/kg</b></center></font></td>
+                        </tr>
+                    </table>
+                    <br>
+                </center>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <div class="contact1">
+        <a name="contact"></a>
+        <table class="content-contact">
+            <tr>
+                <td>
+                    <form onsubmit="send()">
+                        <h1><font size="7">Contact Us</font></h1>
+                        Nama
+                        <input type="text" id="name" required>
+                        Email
+                        <input type="email" id="email" required>
+                        Pesan
+                        <textarea id="message" rows="4"></textarea>
+                        <button type="submit">Kirim</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer class="foot">
+        <div class="flex3">
+            <div class="content-footer">
+                <br><br>
+                <table>
+                    <tr>
+                        <td width="85px"><img src="delivery.png" width="70px" height="70px"></td>
+                        <td>
+                            <font size="5"><center>Free Antar Jemput :</center></font>
+                            <font size="3" color="#2D8FD7">08.00 - 20.00</font>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-footer">
+                <br><br>
+                <table>
+                    <tr>
+                        <td width="95px"><img class="img" src="jam.png" width="70px" height="70px"></td>
+                        <td>
+                            <font size="5"><center>Toko Buka Jam :</center></font>
+                            <font size="3" color="#2D8FD7">07.00 - 22.00</font>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-footer">
+                <br><br>
+                <table>
+                    <tr>
+                        <td width="105px"><img class="img" src="wa.png" width="70px" height="70px"></td>
+                        <td>
+                            <font size="5"><center>Whatsapp kami :</center></font>
+                            <font size="3" color="#2D8FD7">+62 746-2348-2375</font>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br><br><br>
+        <center>Template Designed and Created by Ilham Nur C</center>
+        <br>
+    </footer>
+</body>
+</html>

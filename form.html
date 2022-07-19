@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Form Pemesanan</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div align="center">
+            <strong><font size="6">Pemesanan Jasa Layanan</font></strong></div>
+            <br><br>
+			<form name="form1" method="post" action="proses.php">
+				<table width="58%" border="0" align="center">
+					<tr>
+						<td>Tanggal</td>
+						<td><input name="tanggal" type="date"></td>
+					</tr>
+					<tr>
+						<td>Nama</td>
+						<td><input name="nama" type="text"></td>
+					</tr>
+					<tr>
+						<td>No Telpon</td>
+						<td><input name="nomor" type="text"></td>
+					</tr>
+					<tr>
+						<td>Pilih Paket</td>
+						<td>
+                            <select name="paket">
+                                <option>Reguler</option>
+                                <option>Reguler Delivery</option>
+                                <option>Express 3 Jam</option>
+                                <option>Express 6 Jam</option>
+                                <option>Paket Member</option>
+                                <option>Paket Laundry Sepatu</option>
+                            </select>
+                        </td>
+					</tr>
+					<tr>
+						<td>Alamat</td>
+						<td>
+							<textarea name="alamat"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+						</td>
+					</tr>
+				</table>
+			</form>
+            <br><br>
+		<div align="center"><strong><a href="lihat.php">::Lihat Pesanan::
+		</a></strong></div>
+    </body>
+</html>

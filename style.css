@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    width: 1124px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navigasi {
+    background-color: white;
+    border: 1px solid #C5C5C5;
+    height: 70px;
+    width: 1124px;
+    padding-left: 9%;
+    padding-right: 10%;
+    display: flex;
+    font-size: large;
+    position: fixed;
+}
+
+a:link {text-decoration: none; color: black;}
+a:visited {color: black;}
+
+.wash {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 1;
+    width: 810px;
+}
+
+.home {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+}
+
+.price {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75px;
+}
+
+.contact {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80px;
+}
+
+.cart {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header {
+    height: 657px;
+    width: 100%;
+    background-color: #E1FBFF;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.halo {
+    width: 526px;
+    padding-top: 180px;
+}
+
+.halo table {
+    width: 130px;
+    height: 50px;
+    background-color: #2D8FD7;
+    border-radius: 20px;
+    color: white;
+}
+
+.mesin {
+    width: 526px;
+    padding-top: 130px;
+}
+
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 657px;
+}
+
+.jargon {
+    padding-top: 120px;
+}
+
+.flex {
+    display: flex;
+}
+
+.kotak {
+    width: 526px;
+}
+
+.harga {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background-color: #E1FBFF;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reguler {
+    width: 526px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #C5C5C5;
+}
+
+.reguler table {
+    width: 450px;
+    height: 50px;
+    background-color: #2D8FD7;
+    border-radius: 10px;
+    color: white;
+}
+
+.express {
+    width: 340px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #C5C5C5;
+}
+
+.express table {
+    width: 260px;
+    height: 50px;
+    background-color: #2D8FD7;
+    border-radius: 10px;
+    color: white;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact1 {
+    width: 1360px;
+    height: 674px;
+    background-color: white;
+}
+
+.content-contact {
+    padding-top: 10px;
+    padding-left: 260px;
+}
+
+.content-contact form {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.content-contact form h1 {
+    padding-top: 120px;
+    color: #2D8FD7;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content-contact form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 13px;
+    border: 1px solid #C5C5C5;
+    font-size: 16;
+}
+
+.content-contact form button {
+    padding: 15px;
+    background: #2D8FD7;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px;
+    margin-left: 600px;
+    border-radius: 30px;
+}
+
+.foot {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background-color: #E1FBFF;
+}
+
+.content-footer {
+    width: 340px;
+    height: 100%;
+}
+
+.img {
+    padding-left: 20px;
+}
